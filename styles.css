@@ -9,19 +9,20 @@
 .navbar{
     
     background-color: #FFF;
-    /* border-bottom: 1px solid; */
-    height: 80px;
+    padding: 10px;
+    height: 100%;
     
 }
 .nav-items{
     display: flex;
-     justify-content: center; 
+    justify-content: center; 
+    align-items: center;
     
 }
 .nav-items li{
     list-style-type: none;
-     margin-top: 10px;
-    padding: 10px; 
+     /* margin-top: 10px; */
+    padding: 20px; 
     
 }
 .nav-items a{
