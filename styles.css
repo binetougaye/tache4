@@ -293,3 +293,72 @@ img{
 .copyrite p{
     padding: 50px;
 }
+@media screen   and  (max-width:1033px)    {
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 70px; */
+        /* padding: 50px; */
+       
+    }
+    .logo h1{
+        padding: 20px;
+    }
+    .logo p{
+        text-align: center;
+    }
+    .sec-three{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        gap: 0px;
+    }
+    .avatar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center ;
+        align-items: center;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:681px)   {
+    .sec-three{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .avatar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center ;
+        align-items: center;
+        padding: 30px;
+    }
+    .nav-items li{
+        list-style-type: none;
+         /* margin-top: 10px; */
+        padding: 5px; 
+       
+        
+    }
+    .nav-items a{
+        font-size: 10px;
+    }
+    div .item-three{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .four{
+        background-color: #fff;
+      
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .div{
+        flex-direction: column;
+    }
+}
